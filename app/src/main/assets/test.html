@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>律师阁</title>
+    <meta name="format-detection" content="telephone=no">
+
+    <meta http-equiv="x-rim-auto-match" content="none">
+    <meta name="viewport"
+          content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <meta name="generator" content="DESTOON B2B - www.destoon.com"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-title" content="DESTOON B2B网站管理系统手机版"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="128x128" href="apple-touch-icon-precomposed.png">
+    <meta name="msapplication-TileImage" content="apple-touch-icon-precomposed.png">
+    <meta name="msapplication-TileColor" content="#007AFF">
+    <link rel="shortcut icon" type="image/x-icon" href="http://lvshi.jjr18.com/favicon.ico"/>
+    <link rel="bookmark" type="image/x-icon" href="http://lvshi.jjr18.com/favicon.ico"/>
+    <link rel="stylesheet" type="text/css"
+          href="http://lvshi.jjr18.com/mobile/static/lib/jquery/jquery.mobile.custom.structure.min.css"/>
+    <link rel="stylesheet" type="text/css" href="http://lvshi.jjr18.com/mobile/static/style.css"/>
+    <script type="text/javascript"
+            src="http://lvshi.jjr18.com/mobile/static/lib/jquery/jquery-2.1.1.min.js"></script>
+    <script src="http://lvshi.jjr18.com/mobile/static/lib/rem.js" type="text/javascript"
+            charset="utf-8"></script>
+    <script type="text/javascript"
+            src="http://lvshi.jjr18.com/mobile/static/lib/jquery/jquery.mobile.custom.min.js"></script>
+    <script type="text/javascript" src="http://lvshi.jjr18.com/mobile/static/js/common.js"></script>
+    <script type="text/javascript" src="http://lvshi.jjr18.com/mobile/static/js/fix.js"></script>
+
+</head>
+
+<body>
+<link rel="stylesheet" type="text/css" href="http://lvshi.jjr18.com/interface/html/about_us.css"/>
+<div data-role="page" class="about_lawyer-page">
+    <div class="ui-toast"></div>
+    <div class="ui-mask"></div>
+    <div class="ui-sheet"></div>
+    <!--主要内容-->
+    <div class="main">
+        <div class="about_lawyer">
+            <div class="banner">
+                <img src="http://lvshi.jjr18.com/interface/html/about_us_details_bg.png"/>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><span class="icon-world">网址</span><a href="http://www.jjr18.com"
+                                                             target="_blank" class="item">http://www.jjr18.com</a>
+                    </li>
+                    <li><span class="icon-world">电话</span><a href="tel:15600475027"
+                                                             class="item">15600475027</a>
+                    </li>
+                    <!-- <li onclick="mAndroid.jumpToQQ('1302443006')"><span class="icon-world">QQ</span><a title="点击这里给在线客服发消息" class="item unclick" target="_self" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1302443006&amp;site=qq&amp;menu=yes">1302443006</a></li> -->
+
+                    <li><span class="icon-world">QQ</span><a id="testId" class="item unclick" onclick="">1302443006</a>
+                    </li>
+                    <li><span class="icon-world">邮箱</span><a href="javascript:void(0)"
+                                                             class="item unclick">lvshige@foxmail.com</a>
+                    </li>
+                    <li><span class="icon-world">工作时间</span><a href="javascript:void(0)"
+                                                               class="item unclick">周一至周五9：00——18：00</a>
+                    </li>
+                    <!--<li><span class="icon-world">邮编</span><a href="javascript:void(0)" class="item unclick">10010</a></li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--main end-->
+    <!--主要内容结束-->
+</div>
+<script>
+			var type=2;
+			var showToast=document.getElementById("testId");
+
+			showToast.onclick=function(){
+				mAndroid.showToast();
+			};
+
+
+
+			function toast(msg){
+				mAndroid.showToastWithParams(msg);
+			}
+</script>
+<!--page end-->
+</body>
+</html>
